@@ -33,7 +33,7 @@ All hands-on exercises build one running example: a customer-facing support agen
 
 ## Session estimate
 
-**\~20 sessions** to working proficiency, recomputed group by group with a standing Session-Sizing Engine pass before each group starts. Group 2 added one spaced-review session over its original plan (2.4); Group 3 added one grounding-and-citations session over its original plan (3.2), splitting what was one "knowledge sources" session into fundamentals (3.1), grounding mechanics and citations (3.2), and advanced/custom sources (3.3). Expect the running estimate to land closer to \~24–26 sessions by Group 8 as the same pattern continues, recomputed one group at a time rather than projected all at once.
+**\~20 sessions** to working proficiency, recomputed group by group with a standing Session-Sizing Engine pass before each group starts. Group 2 added one spaced-review session over its original plan (2.4); Group 3 added one grounding-and-citations session over its original plan (3.2), splitting what was one "knowledge sources" session into fundamentals (3.1), grounding mechanics and citations (3.2), and Azure AI Search plus custom sources (3.3). **Group 3 is now complete.** Expect the running estimate to land closer to \~24–26 sessions by Group 8 as the same pattern continues — a Group 4 sizing pass is next, before 4.1 starts, recomputed one group at a time rather than projected all at once.
 
 AB-620 itself is a 3-day intermediate course that assumes hands-on agent-building experience already in place. Group 1–2 (about 6 sessions) close that gap. From Group 3 on, sessions map directly onto AB-620's three skill domains — Plan & configure (30–35%), Integrate & extend (40–45%), Test & manage (20–25%) — broken into single-concept lessons small enough to verify and practice rather than compressed into 24 hours of lecture.
 
@@ -47,10 +47,10 @@ AB-620 itself is a 3-day intermediate course that assumes hands-on agent-buildin
 |                                         | 2.2 | Entities and variables                                       | ✅ Taught |
 |                                         | 2.3 | Generative answers & instructions                            | ✅ Taught |
 |                                         | 2.4 | Review & retrieval                                           | ✅ Taught |
-| 3 — Knowledge & Grounding               | 3.1 | Knowledge sources fundamentals (files, SharePoint, websites) | ✅ Taught |
+| 3 — Knowledge & Grounding (complete)    | 3.1 | Knowledge sources fundamentals (files, SharePoint, websites) | ✅ Taught |
 |                                         | 3.2 | Grounding mechanics & citations                              | ✅ Taught |
-|                                         | 3.3 | Azure AI Search & custom knowledge sources                   | ⬜ Next   |
-| 4 — Tools & Actions                     | 4.1 | Connectors & Power Platform actions                          | ⬜        |
+|                                         | 3.3 | Azure AI Search & custom knowledge sources                   | ✅ Taught |
+| 4 — Tools & Actions                     | 4.1 | Connectors & Power Platform actions                          | ⬜ Next   |
 |                                         | 4.2 | Agent flows: human-in-the-loop & error handling              | ⬜        |
 |                                         | 4.3 | Custom prompts & REST APIs                                   | ⬜        |
 |                                         | 4.4 | Adaptive cards & response formatting                         | ⬜        |
