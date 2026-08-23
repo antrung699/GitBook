@@ -20,6 +20,8 @@
     * [Knowledge Sources: Files, SharePoint, and the Web](artificial-intelligence/study-copilot-studio/knowledge-and-grounding/knowledge-sources-files-sharepoint-and-the-web.md)
     * [Grounding Mechanics and Citations](artificial-intelligence/study-copilot-studio/knowledge-and-grounding/grounding-mechanics-and-citations.md)
     * [Azure AI Search & Custom Knowledge Sources](artificial-intelligence/study-copilot-studio/knowledge-and-grounding/azure-ai-search-and-custom-knowledge-sources.md)
+  * [Tools & Actions](artificial-intelligence/study-copilot-studio/tools-and-actions/README.md)
+    * [Connectors and Power Platform Actions](artificial-intelligence/study-copilot-studio/tools-and-actions/connectors-and-power-platform-actions.md)
 
 ## D365 CE
 
