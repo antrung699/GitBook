@@ -22,6 +22,7 @@
     * [Azure AI Search & Custom Knowledge Sources](artificial-intelligence/study-copilot-studio/knowledge-and-grounding/azure-ai-search-and-custom-knowledge-sources.md)
   * [Tools & Actions](artificial-intelligence/study-copilot-studio/tools-and-actions/README.md)
     * [Connectors and Power Platform Actions](artificial-intelligence/study-copilot-studio/tools-and-actions/connectors-and-power-platform-actions.md)
+    * [Agent Flows: Human-in-the-Loop and Error Handling](artificial-intelligence/study-copilot-studio/tools-and-actions/agent-flows-human-in-the-loop-and-error-handling.md)
 
 ## D365 CE
 
