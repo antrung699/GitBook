@@ -23,6 +23,7 @@
   * [Tools & Actions](artificial-intelligence/study-copilot-studio/tools-and-actions/README.md)
     * [Connectors and Power Platform Actions](artificial-intelligence/study-copilot-studio/tools-and-actions/connectors-and-power-platform-actions.md)
     * [Agent Flows: Human-in-the-Loop and Error Handling](artificial-intelligence/study-copilot-studio/tools-and-actions/agent-flows-human-in-the-loop-and-error-handling.md)
+    * [Prompts and REST APIs: Off the Connector Path](artificial-intelligence/study-copilot-studio/tools-and-actions/prompts-and-rest-apis-off-the-connector-path.md)
 
 ## D365 CE
 
