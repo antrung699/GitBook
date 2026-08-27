@@ -25,6 +25,7 @@
     * [Agent Flows: Human-in-the-Loop and Error Handling](artificial-intelligence/study-copilot-studio/tools-and-actions/agent-flows-human-in-the-loop-and-error-handling.md)
     * [Prompts and REST APIs: Off the Connector Path](artificial-intelligence/study-copilot-studio/tools-and-actions/prompts-and-rest-apis-off-the-connector-path.md)
     * [Adaptive Cards and Response Formatting](artificial-intelligence/study-copilot-studio/tools-and-actions/adaptive-cards-and-response-formatting.md)
+    * [Review & Build: Northwind Tool Chain](artificial-intelligence/study-copilot-studio/tools-and-actions/review-and-build-northwind-tool-chain.md)
 
 ## D365 CE
 
