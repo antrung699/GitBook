@@ -23,6 +23,7 @@
   * [Agentic Behavior: Autonomous Agents](artificial-intelligence/study-copilot-studio/agentic-behavior-autonomous-agents/README.md)
     * [Triggers, Boundaries, and Guardrails](artificial-intelligence/study-copilot-studio/agentic-behavior-autonomous-agents/triggers-boundaries-and-guardrails.md)
     * [Build & Deploy: The Return Follow-Up Trigger](artificial-intelligence/study-copilot-studio/agentic-behavior-autonomous-agents/build-and-deploy-the-return-follow-up-trigger.md)
+    * [Monitoring and Governing Autonomy](artificial-intelligence/study-copilot-studio/agentic-behavior-autonomous-agents/monitoring-and-governing-autonomy.md)
   * [Tools & Actions](artificial-intelligence/study-copilot-studio/tools-and-actions/README.md)
     * [Connectors and Power Platform Actions](artificial-intelligence/study-copilot-studio/tools-and-actions/connectors-and-power-platform-actions.md)
     * [Agent Flows: Human-in-the-Loop and Error Handling](artificial-intelligence/study-copilot-studio/tools-and-actions/agent-flows-human-in-the-loop-and-error-handling.md)
