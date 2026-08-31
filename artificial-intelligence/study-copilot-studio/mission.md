@@ -33,7 +33,7 @@ All hands-on exercises build one running example: a customer-facing support agen
 
 ## Session estimate
 
-**\~25–27 sessions** to working proficiency, recomputed group by group with a standing Session-Sizing Engine pass before each group starts. Group 2 added one spaced-review session over its original plan (2.4); Group 3 added one grounding-and-citations session over its original plan (3.2); Group 4 added one closing review/build session over its original plan (4.5); Group 5 added none.
+**\~25–27 sessions** to working proficiency, recomputed group by group with a standing Session-Sizing Engine pass before each group starts. Group 2 added one spaced-review session over its original plan (2.4); Group 3 added one grounding-and-citations session over its original plan (3.2); Group 4 added one closing review/build session over its original plan (4.5); Group 5 added none; Group 6 added one closing consolidation session over its original plan (6.5).
 
 **Group 4 is complete.** 4.5 closed it out by wiring 4.3's REST API tool, 4.2's human-review flow, and 4.4's adaptive-card completion into one Northwind return-and-refund build — the same consolidation shape 2.4 and 3.3 both used to close their own groups.
 
@@ -43,7 +43,11 @@ All hands-on exercises build one running example: a customer-facing support agen
 
 **5.2 is taught (2026-08-29).** Took 5.1's design and actually built it: the Dataverse trigger's native picker turned out to expose only one parameter (which table), so narrowing to the "Status → Completed" transition 5.1 designed required going one layer down into Edit in Power Automate's Parameters/Code tabs — a genuine build-time gap the design phase had no way to surface. All three decision-boundary layers got built into three different shapes (a directly-called topic, a 4.2 agent flow with Request information/Approval and Asynchronous response, and — for the deterministic layer — nothing built at all, since the safest version of "never delete this" is no delete action to guard). Tested every layer manually via the Test trigger icon before publishing, and hit the pre-publication maker-credentials warning as a concrete checkpoint rather than an abstract 5.1 fact. No primary-source conflicts found this session — the first session since 4.1 not to flag one.
 
-**5.3 is taught (2026-08-30) — Group 5 is complete.** Took the now-published Northwind trigger and covered how to actually watch it: the Activity page (per-run transcript and map, fed by autonomous-trigger activity, requiring an Exchange license and generative orchestration), the Monitor page (aggregate metrics running on two separate retention clocks — 360 days for summary data, 28 days for session/transcript detail — and excluding all Test trigger activity by design), and Microsoft Purview's Audit log (agent authoring and `CopilotInteraction` events, on by default and undisablable for administrative events, but carrying only the transcript thread ID, never message text). Closed the loop 5.1 opened by naming "audit logging and monitoring" as a single guardrail category: it's really three tools on three clocks, and none of them can prove the deterministic guardrail's unbuilt delete action was never bypassed — that proof still has to come from the build record itself (5.2), not from observation. A genuine same-word trap was flagged, not smoothed over: a newer "activity trace" feature (GitHub Copilot harness, Preview) is unrelated to the classic Activity page this course uses, despite the name overlap. Four Microsoft Learn pages fetched and verified live this run. **A Group 6 sizing pass runs next, before 6.1 starts** — the standing rule that has now fired identically before every group since Group 2.
+**5.3 is taught (2026-08-30) — Group 5 is complete.** Took the now-published Northwind trigger and covered how to actually watch it: the Activity page (per-run transcript and map, fed by autonomous-trigger activity, requiring an Exchange license and generative orchestration), the Monitor page (aggregate metrics running on two separate retention clocks — 360 days for summary data, 28 days for session/transcript detail — and excluding all Test trigger activity by design), and Microsoft Purview's Audit log (agent authoring and `CopilotInteraction` events, on by default and undisablable for administrative events, but carrying only the transcript thread ID, never message text). Closed the loop 5.1 opened by naming "audit logging and monitoring" as a single guardrail category: it's really three tools on three clocks, and none of them can prove the deterministic guardrail's unbuilt delete action was never bypassed — that proof still has to come from the build record itself (5.2), not from observation. A genuine same-word trap was flagged, not smoothed over: a newer "activity trace" feature (GitHub Copilot harness, Preview) is unrelated to the classic Activity page this course uses, despite the name overlap. Four Microsoft Learn pages fetched and verified live this run.
+
+**Group 6 sizing pass (2026-08-31, before 6.1, same run that produced 6.1):** **5 sessions, up from the original 4.** Researching 6.1 surfaced that "add another agent" is actually six distinct types (child agents, other Copilot Studio agents, A2A external agents, Foundry agents (preview), Fabric data agents (preview), and Microsoft 365 Agents SDK agents (preview)) — one more type than the original plan named — plus a genuine layer confusion worth correcting before it compounds: MCP, which Group 4 already covered as a _tool_ mechanism, is not one of the addable _agent_ types, despite living in the same protocol family. Rather than splitting 6.3 across two unrelated preview mechanisms at different stack layers, it stays focused on Foundry agents specifically, with the MCP boundary clarified as part of that session. The fifth session (6.5) closes the group the same way 2.4, 3.3, and 4.5 closed theirs: wiring what the group taught into one real Northwind build — here, the billing/product-support handoff the mission's own practice scenario named back in session one.
+
+**6.1 is taught (2026-08-31) — Group 6 is under way.** Covered the child-vs-connected-agent distinction, the three-criteria test for when a subtask earns its own agent (plus the 30–40-choice routing-degradation threshold as a quantified version of the same signal), the four governance obligations a connected agent's parent owes it, and the nine prompting disciplines — grouped around a single organizing rule, "exactly one agent replies to the user" — that keep a multi-agent build from routing correctly but still talking over itself. Applied the three-criteria test on paper to the Northwind Billing/Product-Support split named in the mission's own practice scenario, concluding connected agents (not child agents) on all three criteria — a design 6.2 will build. Two Microsoft Learn pages fetched and verified live this run, plus a third fetched specifically to resolve whether MCP belongs on the "other agents" list (it doesn't).
 
 **Correction, surfaced during 5.1:** session 1.2 recorded the third decision-boundary layer as the "AI orchestrator layer." Re-fetching the primary source live for 5.1 shows Microsoft's current text names it the **AI harness layer**. The 1.2 glossary entry has been annotated with this correction rather than silently rewritten, per this course's flag-don't-smooth-over convention; "AI harness layer" is the term used from 5.1 onward.
 
@@ -51,30 +55,31 @@ AB-620 itself is a 3-day intermediate course that assumes hands-on agent-buildin
 
 ## Session map
 
-| Group                                              | #   | Session                                                      | Status   |
-| -------------------------------------------------- | --- | ------------------------------------------------------------ | -------- |
-| 1 — Foundations & Orientation                      | 1.1 | What Copilot Studio actually is                              | ✅ Taught |
-|                                                    | 1.2 | How an agent decides                                         | ✅ Taught |
-| 2 — Core Building Blocks (complete)                | 2.1 | Topics & the authoring canvas                                | ✅ Taught |
-|                                                    | 2.2 | Entities and variables                                       | ✅ Taught |
-|                                                    | 2.3 | Generative answers & instructions                            | ✅ Taught |
-|                                                    | 2.4 | Review & retrieval                                           | ✅ Taught |
-| 3 — Knowledge & Grounding (complete)               | 3.1 | Knowledge sources fundamentals (files, SharePoint, websites) | ✅ Taught |
-|                                                    | 3.2 | Grounding mechanics & citations                              | ✅ Taught |
-|                                                    | 3.3 | Azure AI Search & custom knowledge sources                   | ✅ Taught |
-| 4 — Tools & Actions (complete)                     | 4.1 | Connectors & Power Platform actions                          | ✅ Taught |
-|                                                    | 4.2 | Agent flows: human-in-the-loop & error handling              | ✅ Taught |
-|                                                    | 4.3 | Prompts and REST APIs: off the connector path                | ✅ Taught |
-|                                                    | 4.4 | Adaptive cards & response formatting                         | ✅ Taught |
-|                                                    | 4.5 | Review & build (Northwind tool chain)                        | ✅ Taught |
-| 5 — Agentic Behavior: Autonomous Agents (complete) | 5.1 | Triggers, boundaries, and guardrails                         | ✅ Taught |
-|                                                    | 5.2 | Build & deploy an autonomous agent                           | ✅ Taught |
-|                                                    | 5.3 | Monitoring and governing autonomy                            | ✅ Taught |
-| 6 — Multi-Agent Orchestration                      | 6.1 | Multi-agent design patterns & best practices                 | ⬜ Next   |
-|                                                    | 6.2 | Adding child agents                                          | ⬜        |
-|                                                    | 6.3 | Integrating a Foundry agent & MCP tools                      | ⬜        |
-|                                                    | 6.4 | Agent2Agent (A2A) protocol & Fabric data agents              | ⬜        |
-| 7 — Enterprise Integration & Governance            | 7.1 | Identity, security & responsible AI strategy                 | ⬜        |
-|                                                    | 7.2 | ALM: solutions, environment variables, pipelines             | ⬜        |
-| 8 — Testing & Capstone                             | 8.1 | Evaluating agents: test sets & evaluation methods            | ⬜        |
-|                                                    | 8.2 | Capstone: full Northwind Outfitters agent                    | ⬜        |
+| Group                                              | #   | Session                                                               | Status   |
+| -------------------------------------------------- | --- | --------------------------------------------------------------------- | -------- |
+| 1 — Foundations & Orientation                      | 1.1 | What Copilot Studio actually is                                       | ✅ Taught |
+|                                                    | 1.2 | How an agent decides                                                  | ✅ Taught |
+| 2 — Core Building Blocks (complete)                | 2.1 | Topics & the authoring canvas                                         | ✅ Taught |
+|                                                    | 2.2 | Entities and variables                                                | ✅ Taught |
+|                                                    | 2.3 | Generative answers & instructions                                     | ✅ Taught |
+|                                                    | 2.4 | Review & retrieval                                                    | ✅ Taught |
+| 3 — Knowledge & Grounding (complete)               | 3.1 | Knowledge sources fundamentals (files, SharePoint, websites)          | ✅ Taught |
+|                                                    | 3.2 | Grounding mechanics & citations                                       | ✅ Taught |
+|                                                    | 3.3 | Azure AI Search & custom knowledge sources                            | ✅ Taught |
+| 4 — Tools & Actions (complete)                     | 4.1 | Connectors & Power Platform actions                                   | ✅ Taught |
+|                                                    | 4.2 | Agent flows: human-in-the-loop & error handling                       | ✅ Taught |
+|                                                    | 4.3 | Prompts and REST APIs: off the connector path                         | ✅ Taught |
+|                                                    | 4.4 | Adaptive cards & response formatting                                  | ✅ Taught |
+|                                                    | 4.5 | Review & build (Northwind tool chain)                                 | ✅ Taught |
+| 5 — Agentic Behavior: Autonomous Agents (complete) | 5.1 | Triggers, boundaries, and guardrails                                  | ✅ Taught |
+|                                                    | 5.2 | Build & deploy an autonomous agent                                    | ✅ Taught |
+|                                                    | 5.3 | Monitoring and governing autonomy                                     | ✅ Taught |
+| 6 — Multi-Agent Orchestration                      | 6.1 | Multi-agent design patterns & best practices                          | ✅ Taught |
+|                                                    | 6.2 | Building child & connected agents (Northwind Billing/Product-Support) | ⬜ Next   |
+|                                                    | 6.3 | Integrating a Foundry agent (preview)                                 | ⬜        |
+|                                                    | 6.4 | Agent2Agent (A2A) protocol & Fabric data agents                       | ⬜        |
+|                                                    | 6.5 | Review & build: Northwind multi-agent handoff                         | ⬜        |
+| 7 — Enterprise Integration & Governance            | 7.1 | Identity, security & responsible AI strategy                          | ⬜        |
+|                                                    | 7.2 | ALM: solutions, environment variables, pipelines                      | ⬜        |
+| 8 — Testing & Capstone                             | 8.1 | Evaluating agents: test sets & evaluation methods                     | ⬜        |
+|                                                    | 8.2 | Capstone: full Northwind Outfitters agent                             | ⬜        |

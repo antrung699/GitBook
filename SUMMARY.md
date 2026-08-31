@@ -30,6 +30,8 @@
     * [Prompts and REST APIs: Off the Connector Path](artificial-intelligence/study-copilot-studio/tools-and-actions/prompts-and-rest-apis-off-the-connector-path.md)
     * [Adaptive Cards and Response Formatting](artificial-intelligence/study-copilot-studio/tools-and-actions/adaptive-cards-and-response-formatting.md)
     * [Review & Build: Northwind Tool Chain](artificial-intelligence/study-copilot-studio/tools-and-actions/review-and-build-northwind-tool-chain.md)
+  * [Multi-Agent Orchestration](artificial-intelligence/study-copilot-studio/multi-agent-orchestration/README.md)
+    * [Multi-Agent Design Patterns and Best Practices](artificial-intelligence/study-copilot-studio/multi-agent-orchestration/multi-agent-design-patterns-and-best-practices.md)
 
 ## D365 CE
 
