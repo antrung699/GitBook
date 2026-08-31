@@ -1,8 +1,8 @@
 ---
 description: >-
   Session 6.1 of Group 6 - Multi-Agent Orchestration: child vs. connected
-  agents, when a subtask earns its own agent, and the nine prompting disciplines
-  that keep a multi-agent build from talking over i
+  agents, when a subtask earns its own agent, and the nine disciplines behind a
+  working multi-agent build.
 icon: puzzle-piece
 ---
 
