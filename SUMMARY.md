@@ -32,6 +32,7 @@
     * [Monitoring and Governing Autonomy](artificial-intelligence/study-copilot-studio/agentic-behavior-autonomous-agents/monitoring-and-governing-autonomy.md)
   * [Multi-Agent Orchestration](artificial-intelligence/study-copilot-studio/multi-agent-orchestration/README.md)
     * [Multi-Agent Design Patterns and Best Practices](artificial-intelligence/study-copilot-studio/multi-agent-orchestration/multi-agent-design-patterns-and-best-practices.md)
+    * [Building Child and Connected Agents](artificial-intelligence/study-copilot-studio/multi-agent-orchestration/building-child-and-connected-agents.md)
 
 ## D365 CE
 
