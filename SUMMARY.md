@@ -33,6 +33,7 @@
   * [Multi-Agent Orchestration](artificial-intelligence/study-copilot-studio/multi-agent-orchestration/README.md)
     * [Multi-Agent Design Patterns and Best Practices](artificial-intelligence/study-copilot-studio/multi-agent-orchestration/multi-agent-design-patterns-and-best-practices.md)
     * [Building Child and Connected Agents](artificial-intelligence/study-copilot-studio/multi-agent-orchestration/building-child-and-connected-agents.md)
+    * [Integrating a Foundry Agent](artificial-intelligence/study-copilot-studio/multi-agent-orchestration/integrating-a-foundry-agent.md)
 
 ## D365 CE
 
