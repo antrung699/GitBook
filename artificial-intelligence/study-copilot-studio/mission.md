@@ -61,8 +61,8 @@ AB-620 itself is a 3-day intermediate course that assumes hands-on agent-buildin
 | 6 — Multi-Agent Orchestration                      | 6.1 | Multi-agent design patterns & best practices                          | ✅ Taught |
 |                                                    | 6.2 | Building child & connected agents (Northwind Billing/Product-Support) | ✅ Taught |
 |                                                    | 6.3 | Integrating a Foundry agent (preview)                                 | ✅ Taught |
-|                                                    | 6.4 | Agent2Agent (A2A) protocol & Fabric data agents                       | ⬜ Next   |
-|                                                    | 6.5 | Review & build: Northwind multi-agent handoff                         | ⬜        |
+|                                                    | 6.4 | Agent2Agent (A2A) protocol & Fabric data agents                       | ✅ Taught |
+|                                                    | 6.5 | Review & build: Northwind multi-agent handoff                         | ⬜ Next   |
 | 7 — Enterprise Integration & Governance            | 7.1 | Identity, security & responsible AI strategy                          | ⬜        |
 |                                                    | 7.2 | ALM: solutions, environment variables, pipelines                      | ⬜        |
 | 8 — Testing & Capstone                             | 8.1 | Evaluating agents: test sets & evaluation methods                     | ⬜        |
