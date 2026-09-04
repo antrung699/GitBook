@@ -35,6 +35,7 @@
     * [Building Child and Connected Agents](artificial-intelligence/study-copilot-studio/multi-agent-orchestration/building-child-and-connected-agents.md)
     * [Integrating a Foundry Agent](artificial-intelligence/study-copilot-studio/multi-agent-orchestration/integrating-a-foundry-agent.md)
     * [Agent2Agent Protocol and Fabric Data Agents](artificial-intelligence/study-copilot-studio/multi-agent-orchestration/agent2agent-protocol-and-fabric-data-agents.md)
+    * [Review & Build: Northwind Multi-Agent Handoff](artificial-intelligence/study-copilot-studio/multi-agent-orchestration/review-and-build-northwind-multi-agent-handoff.md)
 
 ## D365 CE
 

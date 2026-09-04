@@ -21,7 +21,7 @@ This course is built on that premise. It doesn't stop at "the agent can answer q
 
 ## Practice scenario
 
-All hands-on exercises build one running example: a customer-facing support agent for a fictional retailer, **Northwind Outfitters** — order status, FAQs, returns and exchanges. It naturally exercises knowledge grounding (FAQs), tools and actions (order lookup), generative answers, autonomous triggers (proactive return follow-ups), and multi-agent handoff (billing vs. product support) — the same shape as the enterprise scenarios in Microsoft's own certification material.
+All hands-on exercises build one running example: a customer-facing support agent for a fictional retailer, **Northwind Outfitters** — order status, FAQs, returns and exchanges. It naturally exercises knowledge grounding (FAQs), tools and actions (order lookup), generative answers, autonomous triggers (proactive return follow-ups), and multi-agent handoff (billing vs. product support) — the same shape as the enterprise scenarios in Microsoft's own certification material. As of 6.5, that handoff spans five live connections: two connected Copilot Studio agents, a Foundry agent, an A2A agent, and a Fabric data agent, tested together for the first time.
 
 ## Primary sources
 
@@ -33,7 +33,7 @@ All hands-on exercises build one running example: a customer-facing support agen
 
 ## Session estimate
 
-**\~25–27 sessions** to working proficiency, recomputed group by group with a standing Session-Sizing Engine pass before each group starts. Group 2 added one spaced-review session over its original plan (2.4); Group 3 added one grounding-and-citations session over its original plan (3.2); Group 4 added one closing review/build session over its original plan (4.5); Group 5 added none; Group 6 added one closing consolidation session over its original plan (6.5).
+**\~25–27 sessions** to working proficiency, recomputed group by group with a standing Session-Sizing Engine pass before each group starts. Group 2 added one spaced-review session over its original plan (2.4); Group 3 added one grounding-and-citations session over its original plan (3.2); Group 4 added one closing review/build session over its original plan (4.5); Group 5 added none; Group 6 added one closing consolidation session over its original plan (6.5) — now taught, closing the group. A Group 7 sizing pass is next, before 7.1 starts, per the standing rule that has fired identically before every group since Group 2.
 
 AB-620 itself is a 3-day intermediate course that assumes hands-on agent-building experience already in place. Group 1–2 (about 6 sessions) close that gap. From Group 3 on, sessions map directly onto AB-620's three skill domains — Plan & configure (30–35%), Integrate & extend (40–45%), Test & manage (20–25%) — broken into single-concept lessons small enough to verify and practice rather than compressed into 24 hours of lecture.
 
@@ -58,12 +58,12 @@ AB-620 itself is a 3-day intermediate course that assumes hands-on agent-buildin
 | 5 — Agentic Behavior: Autonomous Agents (complete) | 5.1 | Triggers, boundaries, and guardrails                                  | ✅ Taught |
 |                                                    | 5.2 | Build & deploy an autonomous agent                                    | ✅ Taught |
 |                                                    | 5.3 | Monitoring and governing autonomy                                     | ✅ Taught |
-| 6 — Multi-Agent Orchestration                      | 6.1 | Multi-agent design patterns & best practices                          | ✅ Taught |
+| 6 — Multi-Agent Orchestration (complete)           | 6.1 | Multi-agent design patterns & best practices                          | ✅ Taught |
 |                                                    | 6.2 | Building child & connected agents (Northwind Billing/Product-Support) | ✅ Taught |
 |                                                    | 6.3 | Integrating a Foundry agent (preview)                                 | ✅ Taught |
 |                                                    | 6.4 | Agent2Agent (A2A) protocol & Fabric data agents                       | ✅ Taught |
-|                                                    | 6.5 | Review & build: Northwind multi-agent handoff                         | ⬜ Next   |
-| 7 — Enterprise Integration & Governance            | 7.1 | Identity, security & responsible AI strategy                          | ⬜        |
+|                                                    | 6.5 | Review & build: Northwind multi-agent handoff                         | ✅ Taught |
+| 7 — Enterprise Integration & Governance            | 7.1 | Identity, security & responsible AI strategy                          | ⬜ Next   |
 |                                                    | 7.2 | ALM: solutions, environment variables, pipelines                      | ⬜        |
 | 8 — Testing & Capstone                             | 8.1 | Evaluating agents: test sets & evaluation methods                     | ⬜        |
 |                                                    | 8.2 | Capstone: full Northwind Outfitters agent                             | ⬜        |
