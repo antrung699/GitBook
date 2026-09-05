@@ -36,6 +36,8 @@
     * [Integrating a Foundry Agent](artificial-intelligence/study-copilot-studio/multi-agent-orchestration/integrating-a-foundry-agent.md)
     * [Agent2Agent Protocol and Fabric Data Agents](artificial-intelligence/study-copilot-studio/multi-agent-orchestration/agent2agent-protocol-and-fabric-data-agents.md)
     * [Review & Build: Northwind Multi-Agent Handoff](artificial-intelligence/study-copilot-studio/multi-agent-orchestration/review-and-build-northwind-multi-agent-handoff.md)
+  * [Enterprise Integration & Governance](artificial-intelligence/study-copilot-studio/enterprise-integration-and-governance/README.md)
+    * [Identity and Security](artificial-intelligence/study-copilot-studio/enterprise-integration-and-governance/identity-and-security.md)
 
 ## D365 CE
 

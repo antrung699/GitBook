@@ -33,7 +33,7 @@ All hands-on exercises build one running example: a customer-facing support agen
 
 ## Session estimate
 
-**\~25–27 sessions** to working proficiency, recomputed group by group with a standing Session-Sizing Engine pass before each group starts. Group 2 added one spaced-review session over its original plan (2.4); Group 3 added one grounding-and-citations session over its original plan (3.2); Group 4 added one closing review/build session over its original plan (4.5); Group 5 added none; Group 6 added one closing consolidation session over its original plan (6.5) — now taught, closing the group. A Group 7 sizing pass is next, before 7.1 starts, per the standing rule that has fired identically before every group since Group 2.
+**\~27–29 sessions** to working proficiency, recomputed group by group with a standing Session-Sizing Engine pass before each group starts. Group 2 added one spaced-review session over its original plan (2.4); Group 3 added one grounding-and-citations session over its original plan (3.2); Group 4 added one closing review/build session over its original plan (4.5); Group 5 added none; Group 6 added one closing consolidation session over its original plan (6.5); **Group 7 was sized at 4 sessions before 7.1 ran, up from the original plan's 2** — researching 7.1 showed identity/security and responsible AI are genuinely separate mental models bundled into one session name, and ALM (originally one session) splits the same way into foundations (solutions, environment variables) and automation (CI/CD pipelines), the same "two lessons stapled together" pattern Group 3's sizing note first flagged. **7.1 (Identity and Security) is now taught, opening Group 7.** A Group 8 sizing pass will run before 8.1 starts, per the standing rule.
 
 AB-620 itself is a 3-day intermediate course that assumes hands-on agent-building experience already in place. Group 1–2 (about 6 sessions) close that gap. From Group 3 on, sessions map directly onto AB-620's three skill domains — Plan & configure (30–35%), Integrate & extend (40–45%), Test & manage (20–25%) — broken into single-concept lessons small enough to verify and practice rather than compressed into 24 hours of lecture.
 
@@ -63,7 +63,9 @@ AB-620 itself is a 3-day intermediate course that assumes hands-on agent-buildin
 |                                                    | 6.3 | Integrating a Foundry agent (preview)                                 | ✅ Taught |
 |                                                    | 6.4 | Agent2Agent (A2A) protocol & Fabric data agents                       | ✅ Taught |
 |                                                    | 6.5 | Review & build: Northwind multi-agent handoff                         | ✅ Taught |
-| 7 — Enterprise Integration & Governance            | 7.1 | Identity, security & responsible AI strategy                          | ⬜ Next   |
-|                                                    | 7.2 | ALM: solutions, environment variables, pipelines                      | ⬜        |
+| 7 — Enterprise Integration & Governance            | 7.1 | Identity and Security                                                 | ✅ Taught |
+|                                                    | 7.2 | Responsible AI                                                        | ⬜ Next   |
+|                                                    | 7.3 | ALM Foundations: solutions & environment variables                    | ⬜        |
+|                                                    | 7.4 | ALM Automation: pipelines & CI/CD                                     | ⬜        |
 | 8 — Testing & Capstone                             | 8.1 | Evaluating agents: test sets & evaluation methods                     | ⬜        |
 |                                                    | 8.2 | Capstone: full Northwind Outfitters agent                             | ⬜        |
